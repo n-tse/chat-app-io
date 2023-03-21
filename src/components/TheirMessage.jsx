@@ -8,7 +8,7 @@ export default function TheirMessage({ lastMessage, message }) {
           src={message.attachments[0].file}
           alt="message attachment"
           className="message-image"
-          style={{ marginLeft: 48 }}
+          style={{ marginLeft: 20 }}
         />
       ) : (
         <div
@@ -16,7 +16,7 @@ export default function TheirMessage({ lastMessage, message }) {
           style={{
             float: "left",
             backgroundColor: "#CABCDC",
-            marginLeft: 48
+            marginLeft: 20
           }}
         >
           {message.text}
