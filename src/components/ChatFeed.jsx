@@ -49,7 +49,7 @@ export default function ChatFeed(props) {
           <div
             className="read-receipts"
             style={{
-              marginRight: isMyMessage ? "50px" : "0px",
+              marginRight: isMyMessage ? "75px" : "0px",
               marginLeft: isMyMessage ? "0px" : "40px",
             }}
           >
